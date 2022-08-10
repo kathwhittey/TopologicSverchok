@@ -12,7 +12,7 @@
 #
  import os
  import sys
- sys.path.insert(0, os.path.abspath('/TopologicSverchok/nodes/Topologic'))
+ sys.path.insert(0, os.path.abspath('Users/kathrynwhittey/github/TopologicSverchok/docs'))
 
  import VertexByCoordinates
 
