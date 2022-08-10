@@ -11,10 +11,7 @@ Topologic is an open-source software modelling library enabling hierarchical and
    :maxdepth: 2
    :caption: Contents:
 
-   Functions
-   Tutorials
-
-
+   VertexByCoordinates
 
 Indices and tables
 ==================
