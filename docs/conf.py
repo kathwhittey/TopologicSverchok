@@ -12,9 +12,8 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../nodes/Topologic'))
+sys.path.insert(0, os.path.abspath('..'))
 
-import VertexByCoordinates
  # this is the part I'm struggling with
 
 
