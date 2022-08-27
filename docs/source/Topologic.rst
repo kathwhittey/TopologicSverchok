@@ -4,10 +4,10 @@ Topologic package
 Submodules
 ----------
 
-Topologic.ApertureByTopologyContext module
+Topologic.ApertureByTopologyContext class
 ------------------------------------------
 
-.. automodule:: Topologic.ApertureByTopologyContext
+.. autoclass:: Topologic.ApertureByTopologyContext
    :members:
    :undoc-members:
    :show-inheritance:
