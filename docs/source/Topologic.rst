@@ -4,7 +4,7 @@ Topologic package
 Submodules
 ----------
 
-Topologic.ApertureByTopologyContext class
+The Topologic.ApertureByTopologyContext class
 ------------------------------------------
 
 .. autoclass:: Topologic.ApertureByTopologyContext
