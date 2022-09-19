@@ -8,10 +8,10 @@ Welcome to Topologic documentation!
 Topologic is an open-source software modelling library enabling hierarchical and topological representations of architectural spaces, buildings and artefacts through non-manifold topology (NMT).
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+:maxdepth: 2
+:caption: Contents:
 
-   Topologic.rst
+Topologic.rst
 
 
 Indices and tables
