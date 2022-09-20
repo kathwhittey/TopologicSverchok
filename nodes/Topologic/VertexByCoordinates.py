@@ -119,8 +119,26 @@ replication = [("Default", "Default", "", 1),("Trim", "Trim", "", 2),("Iterate",
 class SvVertexByCoordinates(bpy.types.Node, SverchCustomTreeNode):
 	"""
 	Triggers: Topologic
-	Tooltip: Creates a Vertex from the input coordinates   
+	Tooltip: Creates a Vertex from the input coordinates
 	"""
+class Vertex(topologic.Vertex):
+	@staticmethod
+	def VertexCoordinates(x, y, z):
+		"""
+		Parameters
+		----------
+		x : TYPE
+			DESCRIPTION.
+		y : TYPE
+			DESCRIPTION.
+		z : TYPE
+			DESCRIPTION.
+		RETURNS
+		---------
+		vert : TYPE
+			   DESCRIPTION.
+	    """
+
 	bl_idname = 'SvVertexByCoordinates'
 	bl_label = 'Vertex.ByCoordinates'
 	X: FloatProperty(name="X", default=0, precision=4, update=updateNode)
@@ -174,7 +192,7 @@ class SvVertexByCoordinates(bpy.types.Node, SverchCustomTreeNode):
 						index = index+1
 					vList.append(wList)
 				uList.append(vList)
-			outputs = uList		
+			outputs = uList
 		self.outputs['Vertex'].sv_set(outputs)
 
 def register():

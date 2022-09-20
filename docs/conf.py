@@ -36,7 +36,8 @@ autodoc_mock_imports = ["topologic","ifcopenshell", "bpy", "faulthandler"]
 # ones.
 extensions = ['sphinx.ext.autodoc']
 
-#document function io.open(), reading its signature and docstring fromthe source file
+#document function io.open(), reading its signature and docstring fromthe source file 
+# this line is stopping the build atm
 .. autofunction:: io.open
 
 #document whole classes or even modules automatically
